@@ -10,8 +10,7 @@ function milisegundos_dhm(milisegundos) {
     let anios = Math.floor(dias / 365);
     dias %= 365;
 
-    let meses = Math.floor(dias / 30);
-    dias %= 30;
+    let meses = Math.floor(dias / 30);   //Con 365/12 se calcula el mes 
 
     return `${anios} años, ${meses} meses, ${dias} días`;
 }

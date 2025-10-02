@@ -14,7 +14,7 @@ switch (opcion) {
        salida.innerHTML = fecha.toLocaleDateString();
         break;
     case "hora actual":
-        salida.innerHTML = fecha.getHours() + ":" +  fecha.getMinutes()
+        salida.innerHTML = fecha.getHours() + ":" +  fecha.getMinutes() //Usar toLocaleTimeString()
         break
     case "dia de la semana": 
         salida.innerHTML = dias[fecha.getDay()-1]
